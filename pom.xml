@@ -16,6 +16,7 @@
     </properties>
 
     <dependencies>
+        <!-- Basic dependencies start -->
         <dependency>
             <groupId>org.flmelody</groupId>
             <artifactId>windward</artifactId>
@@ -31,6 +32,15 @@
             <artifactId>logback-classic</artifactId>
             <version>1.4.12</version>
         </dependency>
+        <!-- Basic dependencies end -->
+
+        <!-- We need it to parse inner.html -->
+        <dependency>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf</artifactId>
+            <version>3.1.2.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
     <build>

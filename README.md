@@ -1,5 +1,7 @@
 # Sample project for Windward
 
+[中文](README.zh-CN.md)
+
 ## You will learn these skills
 
 - Simple router usage
